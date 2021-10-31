@@ -1,0 +1,67 @@
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+
+
+x = "awesome"
+print("Python is " + x)
+
+
+x = "python is"
+y = " awesome"
+z = x + y
+print(z)
+
+
+x = 5
+y = 43294320942940923980
+sum = x + y
+print(sum)
+
+
+x = "awesome"
+
+def myfunc():
+    print("Python is " + x)
+
+myfunc()
+
+
+x = "awesome"
+
+def myfunc():
+    x = "fucking awsome"
+    print("python is " + x)
+
+myfunc()
+
+print("python is " + x)
+
+x = "awesome"
+
+def myfunc():
+    x = "fucking awsome"
+    print("python is " + x)
+
+myfunc()
+
+
+def myfunc():
+    global x
+    x = "fucking amazing"
+
+myfunc()
+
+print("python is " + x)
+
+x = "awesome"
+
+def myfunc():
+    global x
+    x = "fucking amazing"
+
+myfunc()
+
+print("python is " + x)

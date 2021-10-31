@@ -1,0 +1,57 @@
+a = "hello world1!"
+print(a[3])
+print(a[4])
+print(a[3])
+
+for x in "banana":
+    print(x)
+
+a = "hello world!"
+print(len(a))
+
+
+txt = "i eat so much ass"
+print("ass" in txt)
+
+
+var1 = "the best things in life are free"
+if "free" in var1:
+    print("yes, 'free' is present.")
+
+
+var1 = "the best things in life are free"
+print("expensive" not in var1)
+
+
+var1 = "the best things in life are free"
+if "expensive" not in var1:
+    print("no, 'expensive' is NOT present")
+
+
+b = "hello world!"
+print(b[2:5])
+
+b = "hello world!"
+print(b[:5])
+
+
+
+b = "hello world!"
+print(b[2:])
+
+
+b = "hello world!"
+print(b[-5:-2])
+
+b = "hello world!"
+print(b.upper())
+
+b = " hello world! "
+print(b.lower())
+
+b = " hello, world! "
+print(b.strip())
+
+
+b = "hello world!"
+print(b.replace("h", "j"))

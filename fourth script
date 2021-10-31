@@ -1,0 +1,45 @@
+import random
+
+print(random.randrange(1, 10))
+
+
+
+y = float(43242)
+print(y)
+
+z = str(4324232432)
+print(z)
+
+a = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+print(a)
+
+
+a = "go fuck yourself slut"
+print(a[4])
+
+for x in "fuck":
+    print(x)
+
+dumbassvar = "mydicklong"
+print(len(dumbassvar))
+
+
+var1 = "go fuck yourself in the ass"
+print("fuck" in var1)
+
+var1 = "go fuck yourself"
+if "fuck" in var1:
+    print("yes, 'fuck'")
+
+b = "i love sluts"
+print(b[-5:-1])
+print(b[0:11])
+
+var69 = "i love whores"
+print(var69.upper())
+
+var69 = "i love whores"
+print(var69.lower())
+
+var69 = "i, love whores"
+print(var69.strip())

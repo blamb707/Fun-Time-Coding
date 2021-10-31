@@ -1,0 +1,25 @@
+
+x = 3
+y = "hello world!"
+print(x)
+print(y)
+
+x = str(3)
+y = int(3)
+z = float(3)
+print(x)
+print(y)
+print(z)
+
+x = 3
+y = "hello world!"
+print(type(x))
+print(type(y))
+
+my_name = "Brendan Lamb"
+print(my_name)
+
+x, y, z = "orange", "banana", "tree"
+print(x)
+print(y)
+print(z)

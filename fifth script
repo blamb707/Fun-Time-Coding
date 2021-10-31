@@ -1,0 +1,67 @@
+var69 = "I love big titties"
+print(var69.upper())
+print(var69.replace("I", "you"))
+
+
+a = "i love"
+b = " big tits"
+c = a + b
+print(c)
+
+age = 69
+name = "pussy galore is {}"
+print(name.format(age))
+
+item = 14
+quant = 50
+price = 33.4
+order = "i want {1} amount of item {0} for {2} dollars"
+print(order.format(item, quant, price))
+
+txt = "i hate myself \"because i am lazy\" jkkk"
+print(txt)
+
+txt = "penis in my butt put it in my butt"
+
+x = txt.partition("put")
+
+print(x)
+
+txt = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+x = txt.index("et")
+
+print(x)
+
+
+
+
+binary = "i think {0} binary is {0:b}"
+print(binary.format(24))
+
+txt = "   banana   "
+
+y = txt.rstrip()
+
+print("i hate", y, "the most")
+
+txt = "welcome to the jungle"
+
+z = txt.split()
+
+print(z)
+
+txt = "welcome, to the jungle"
+
+z = txt.split("," )
+
+print(z)
+
+txt = "welcome#to#the#jungle"
+
+z = txt.split("#", 1)
+
+print(z)
+
+txt1 = "my name is {fname}, i am {age}".format(fname = "brendan", age = 23)
+print(txt1)
